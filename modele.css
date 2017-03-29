@@ -1,0 +1,183 @@
+				/* Body */
+
+/* Couleur du fond de chaque page */
+body
+{
+	background-color: rgb(230,230,230);
+}
+
+		/* Tableaux de Formulaires */
+
+table
+{
+	width: 80%;
+}
+
+/* Dans la page pour entrer des corps, écart du bouton de validation avec le bas de page */
+#tab_bouton_validation_entree_corps
+{
+	margin-bottom: 5%;
+}
+
+/* Largeur de chaque champ du formulaire */
+td
+{
+	width: 50%;
+}
+
+/* Alignement du texte avant les champs du formulaire*/
+td:nth-child(1)
+{
+	text-align: right;
+}
+
+/* Police, taille de police, alignement du texte, forme des coins, ombre, taille du rectangle, écart avec les bord de l'écran (gauche, haut, bas)*/
+fieldset
+{
+	/* Texte */
+	font-family: verdana;
+	font-size:100%;
+	text-align: center;
+	/*text-align: left; INUTILE */
+
+	/* Rectangle */
+	border-radius: 7px;	/* Permet d'avoir des coins de forme arrondie pour le rectangle qui entoure un formulaire */
+	box-shadow: #505050 3px 3px 8px; /* Ombre en-dessous du rectangle */
+	padding: 30px 10px; /*
+						Définit la taille de l'espace entre le formulaire et le rectangle qui l'entoure
+						en hauteur puis en largeur
+						*/
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/* Legendes des formulaires */
+legend
+{
+	font-size: large;
+	font-weight: bold;
+	text-align: left;
+}
+
+#id_autho
+{
+	text-align: left;
+	margin-top: 5%;
+}
+
+li.active
+{
+	background-color: rgb(230,230,230);
+}
+
+/* Formulaire */
+input:focus
+{
+	background-border: blue;
+}
+
+label:hover
+{
+	color: rgb(55,0,40);
+}
+
+u
+{
+	color: grey;
+}
+
+/* Titres */
+h1
+{
+	text-align: center;
+}
+
+/* Liste du Menu */
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(235,235,235) ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border:1px solid #e7e7e7;
+}
+
+title
+{
+	text-align: center;
+}
+
+/* Bouton de validation de formulaire */
+#submit_authentification2, #submit_authentification1
+{
+	height: 30px;
+	width: 80px;
+}
+
+				/* Barre de Navigation */
+.nav
+{
+	color:rgb(230,230,230);
+}
+
+.navbar-brand
+ {
+	font-size: 20px;
+	margin-left : 20px;
+	background-color: rgba(55, 0, 40,0.8);
+	position: fixed;
+	height: 50px;
+	color : white;
+}
+
+.nav.navbar-nav
+{
+	height: 52px;
+	margin-left : 20px;
+	background-color: rgba(55,0,40, 0.8);
+
+}
+
+
+
+.navbar-form.navbar-left
+{
+	margin-left : 49%;
+}
+
+.nav.navbar-nav > li > a {
+	color : rgb(210,210,210);
+}
+
+
+.nav.navbar-nav > li > a:hover {
+	color : rgb(245,245,245);
+}
+
+				/* Footer */
+footer
+{
+	padding: 15px 0px;
+	font-size: 15px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(205,205,205);
+	position:fixed;
+}
+
+footer > a:hover
+{
+	color: rgb(55,0,40);
+	text-decoration: underline;
+}
+footer a
+{
+	color: rgb(150,150,150);
+}

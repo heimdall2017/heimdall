@@ -1,0 +1,65 @@
+html
+{
+  margin:0;
+  padding:0;
+  background: url(africa.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body
+{
+    background : transparent;
+    color : white;
+}
+
+fieldset
+{
+	background-color: rgba(55,0,40,0.5);
+	margin-top: 15%;
+}
+
+input[type="submit"]{
+  background-color:  rgb(55,0,40);
+}
+
+a
+{
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color: rgb(55,0,40);
+}
+
+
+label:hover
+{
+	color: rgb(55,0,40);
+}
+
+label
+{
+	color: white;
+}
+
+header
+{
+	padding: 0px 0px;
+	font-size: 15px;
+	top: 0px;
+	width: 100%;
+    height: 18%;
+	text-align: center;
+	background-color: rgb(235,235,235);
+	position:fixed;
+}
+
+legend {
+  color : white;
+}
+
+footer {
+  color : #333;
+}
